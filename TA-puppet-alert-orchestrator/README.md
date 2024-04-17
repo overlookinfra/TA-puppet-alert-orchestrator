@@ -17,7 +17,7 @@ This add-on is intended to be used alongside the [Puppet Report Viewer](https://
 
 ## Configuration
 
-After installing and configuring both the `splunk_hec` Puppet module and the Puppet Report Viewer app for Splunk; follow the steps below to configure the [Puppet Alert Orchestrator add-on for Splunk](https://splunkbase.splunk.com/app/4928/):
+After installing and configuring both the `splunk_hec` Puppet module and the Puppet Report Viewer app for Splunk; follow the steps below to configure the [Puppet Alert Orchestrator add-on for Splunk](https://github.com/puppetlabs/TA-puppet-alert-orchestrator):
 
 ### Configuration Tabs
 
