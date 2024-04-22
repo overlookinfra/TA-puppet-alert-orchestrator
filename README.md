@@ -13,11 +13,11 @@
 
 This Splunk add-on can be used to trigger Puppet Enterprise Orchestration actions such as plan or task execution; as well as generating detailed Puppet report data.
 
-This add-on is intended to be used alongside the [Puppet Report Viewer](https://splunkbase.splunk.com/app/4413/), with data provided by the [splunk_hec](https://forge.puppet.com/puppetlabs/splunk_hec) report processor available on the Puppet Forge.
+This add-on is intended to be used alongside the [Puppet Report Viewer app for Splunk](https://splunkbase.splunk.com/app/4413/), with data provided by the [splunk_hec](https://forge.puppet.com/puppetlabs/splunk_hec) report processor available on the Puppet Forge.
 
 ## Configuration
 
-After installing and configuring both the `splunk_hec` Puppet module and the Puppet Report Viewer app for Splunk; follow the steps below to configure the [Puppet Alert Orchestrator add-on for Splunk](https://splunkbase.splunk.com/app/4928/):
+After installing and configuring both the `splunk_hec` Puppet module and the Puppet Report Viewer app for Splunk; follow the steps below to configure the [Puppet Alert Orchestrator add-on for Splunk](https://splunkbase.splunk.com/app/7318/):
 
 ### Configuration Tabs
 

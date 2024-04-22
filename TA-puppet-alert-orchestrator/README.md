@@ -13,7 +13,7 @@
 
 This Splunk add-on can be used to trigger Puppet Enterprise Orchestration actions such as plan or task execution; as well as generating detailed Puppet report data.
 
-This add-on is intended to be used alongside the [Puppet Report Viewer](https://splunkbase.splunk.com/app/4413/), with data provided by the [splunk_hec](https://forge.puppet.com/puppetlabs/splunk_hec) report processor available on the Puppet Forge.
+This add-on is intended to be used alongside the [Puppet Report Viewer app for Splunk](https://splunkbase.splunk.com/app/4413/), with data provided by the [splunk_hec](https://forge.puppet.com/puppetlabs/splunk_hec) report processor available on the Puppet Forge.
 
 ## Configuration
 
@@ -30,13 +30,11 @@ Add account details for multiple PE RBAC users.
   * **Password**: Password _or_ PE RBAC Token
     * Check the `pe_token` checkbox if you provide a PE RBAC Token instead of a password. 
 
-![Account](readme/img/account_config.png)
+![Account](322b0a10-fceb-11ee-aed0-9ac19b020734.png)
 
 #### Logging
 
 Default log level is `INFO`.
-
-![Logging](readme/img/logging_config.png)
 
 #### Add-on settings
 
@@ -49,7 +47,7 @@ The following are required fields.
 
 **Note**: See the [Splunk HEC Documentation](https://docs.splunk.com/Documentation/Splunk/latest/Data/UsetheHTTPEventCollector) for details on determining the correct URL for your HEC endpoint. 
 	
-![Settings](readme/img/settings_config.png)
+![Settings](cd719d1e-fcea-11ee-91e6-52042cae3bc7.png)
 
 **Note**: Once the add-on has been configured, Splunk will need to be restarted.
 
@@ -57,7 +55,6 @@ The following are required fields.
 
 The Orchestrator Actions dashboard is powered by a custom input script which utilizes the configured account credentials to query Puppet Enterprise for Tasks and Plans available to that particular RBAC user.
 
-![Actions](readme/img/orchestrator_actions.png)
 
 #### Splunk Cloud
 
@@ -91,15 +88,15 @@ Once the add-on has been properly configured you can begin creating new Alerts t
 
 1. Create a Splunk search:
 
-	![Splunk Search](readme/img/splunk_search.png)
+	![Splunk Search](d08e551e-fcea-11ee-83a8-92aa9ede6029.png)
 	
 2. Save the search as an Alert:
 
-	![Save Splunk Search](readme/img/save_as_alert.png)
+	![Save Splunk Search](caa740c0-fcea-11ee-95bf-8a4951598e2a.png)
 
 3. Configure the Alert Actions:
 
-	![Alert Action Configuration](readme/img/alert_options.png)
+	![Alert Action Configuration](c5c4b83a-fcea-11ee-93e7-9ac19b020734.png)
 	
 ## Example Searches
 

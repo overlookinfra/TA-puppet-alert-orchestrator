@@ -1,5 +1,13 @@
 # Release Notes
 
+### Puppet Alert Orchestrator add-on for Splunk
+
+## Version 1.0.1
+
+**Fixes**:
+
+  * Updated add-on for compatibility with [Splunk Add-on Builder v4.2.0](https://splunkbase.splunk.com/app/2962).
+
 ## Version 1.0.0
 
 **Breaking Changes**:
@@ -17,6 +25,10 @@
     * New action added that allows user to trigger Puppet Plans. When configuring the action, the Plan name is populated with the same data as the Orchestrator Actions dashboard.
   * "Run a Puppet Task" **Action**.
     *  When configuring the action, the Task name is populated with the same data as the Orchestrator Actions dashboard.
+
+---
+
+### Puppet Alert Actions
 
 ## Version 0.6.0
 

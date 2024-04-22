@@ -11,7 +11,7 @@ First open a release prep PR to update the following files:
   * `README.md`
   * `readme/CHANGELOG.md`
 
-Tagging the release in GitHub will trigger the [release workflow](https://github.com/puppetlabs/TA-puppet-alert-actions/workflows/release.yml) to build the app package.
+Tagging the release in GitHub will trigger the [release workflow](https://github.com/puppetlabs/TA-puppet-alert-orchestrator/actions/workflows/release.yml) to build the app package.
 
 Tag the release with the appropriate version ID and push the tag upstream:
 
