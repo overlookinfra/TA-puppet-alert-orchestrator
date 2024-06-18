@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
   "info": {
     "title": "Puppet Alert Orchestrator",
     "id": {
@@ -18,8 +18,8 @@
     "description": "Collection of alert actions specifically for Puppet Enterprise.",
     "classification": {
       "intendedAudience": null,
-      "categories": [],
-      "developmentStatus": null
+      "categories": ["DevOps"],
+      "developmentStatus": "Production/Stable"
     },
     "commonInformationModels": null,
     "license": {
@@ -34,20 +34,18 @@
     },
     "releaseNotes": {
       "name": null,
-      "text": null,
+      "text": "./readme/CHANGELOG.md",
       "uri": null
     }
   },
-  "dependencies": {
-  },
-  "tasks": [],
-  "inputGroups": {
-  },
-  "incompatibleApps": {
-  },
-  "platformRequirements": {
-    "splunk": {
-      "Enterprise": "*"
-    }
-  }
+  "dependencies": null,
+  "tasks": ["script://$SPLUNK_HOME/etc/apps/TA-puppet-alert-orchestrator/bin/inputs/orchestrator_actions.py"],
+  "inputGroups": null,
+  "incompatibleApps": null,
+  "platformRequirements": null,
+  "supportedDeployments": ["*"],
+  "targetWorkloads": [
+    "_search_heads",
+    "_indexers"
+  ]
 }
