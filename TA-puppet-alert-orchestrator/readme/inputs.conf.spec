@@ -1,5 +1,5 @@
 [script://$SPLUNK_HOME/etc/apps/TA-puppet-alert-orchestrator/bin/inputs/orchestrator_actions.py]
-disabled = 0
-interval = 3600
+disabled = <integer>
+interval = <integer>
 passAuth = splunk-system-user
 python.version = python3
